@@ -8,7 +8,7 @@ from selenium.common.exceptions import TimeoutException
 
 
 
-def test_items(browser):
+def test_add_to_cart_button_is_displayed(browser):
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     browser.get(link)
     time.sleep(30)
